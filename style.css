@@ -7,17 +7,6 @@ html {
   height:100%;
 }
 
-.title {
-  font-family: Bellada;
-  font-size: 50;
-}
-
-.intestation {
-  font-family: "Roboto";
-  font-size: 18px;
-  color: #333;
-}
-
 .content {
   padding: 10px;
 }
@@ -37,6 +26,17 @@ html {
     max-width: 70%;
     margin: auto auto;
   }
+
+  .title {
+    font-family: Bellada;
+    font-size: 50;
+  }
+  
+  .intestation {
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #333;
+  }
 }
 
 @media screen and (max-width: 1023px) {
@@ -53,6 +53,17 @@ html {
     min-height: 100%;
     min-width: 100%;
     margin: auto auto;
+  }
+
+  .title {
+    font-family: Bellada;
+    font-size: 100;
+  }
+  
+  .intestation {
+    font-family: "Roboto";
+    font-size: 50px;
+    color: #333;
   }
 }
 
