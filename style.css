@@ -39,6 +39,24 @@ html {
   }
 }
 
+@media screen and (max-width: 1023px) {
+  body {
+    background-image: url(https://giovannimasi.tech/hidgems/images/_1377337f-2e87-455a-b256-a7efedf1e8f2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+  }
+
+  .foreground{
+    background-color: white;
+    opacity: 0.7;
+    min-height: 100%;
+    min-width: 100%;
+    margin: auto auto;
+  }
+}
+
 @media screen and (min-width: 769px){
   .get_it_on {
     display: flex;
