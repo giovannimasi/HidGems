@@ -1,21 +1,96 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic);
+@import url(https://fonts.cdnfonts.com/css/bellada);
 
 html {
   height:100%;
 }
 
-body {
-  margin: 20px;
-  text-align: center;
-  margin: 0;
-  padding: 60px;
+.title {
+  font-family: Bellada;
+  font-size: 50;
+}
+
+.intestation {
   font-family: "Roboto";
   font-size: 18px;
-  line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
-  height:100%;
+}
+
+.content {
+  padding: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url(images/_1377337f-2e87-455a-b256-a7efedf1e8f2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+  }
+
+  .foreground{
+    background-color: white;
+    opacity: 0.7;
+    min-height: 100%;
+    max-width: 70%;
+    margin: auto auto;
+  }
+}
+
+@media screen and (min-width: 769px){
+  .get_it_on {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 50px;
+    max-block-size: 5%;
+    width: auto;
+  }
+  
+  .get_it_on img {
+    margin: 0 20px;
+    display: flex;
+    width: fit-content;
+  }
+  
+  .google {
+    height: 89;
+  }
+
+  .apple {
+    height: 70;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .get_it_on {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 50px;
+    max-block-size: 5%;
+    width: auto;
+  }
+  
+  .get_it_on img {
+    margin: 10 20px;
+    display: flex;
+    width: fit-content;
+  }
+
+  
+  .google {
+    height: 80;
+  }
+
+  .apple {
+    height: 70;
+  }
+
 }
 
 /*nav {
