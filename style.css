@@ -54,6 +54,7 @@ html {
   }
 
   .slide {
+    height: 250px;
     background-color: #2e2929;
     border-radius: 25px;
     cursor: pointer;
