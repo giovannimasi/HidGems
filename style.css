@@ -82,26 +82,26 @@ html {
 
   .get_it_on {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 50px 50px;
+    margin: 200px 50px;
     max-block-size: 5%;
     width: auto;
   }
   
   .get_it_on img {
-    margin: 0 20px;
+    margin: 10 20px;
     display: flex;
     width: fit-content;
   }
   
   .google {
-    height: 89;
+    height: 160;
   }
 
   .apple {
-    height: 70;
+    height: 140;
   }
 }
 
