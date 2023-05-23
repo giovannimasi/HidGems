@@ -38,6 +38,11 @@ html {
     color: #333;
   }
 
+  .center {
+    display: flex;
+    flex-direction: row;
+  }
+
   .mockup {
     margin-top: 12%;
     position: absolute;
