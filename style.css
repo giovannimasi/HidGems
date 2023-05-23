@@ -38,14 +38,15 @@ html {
     color: #333;
   }
 
-  .center {
+  .row {
     display: flex;
-    flex-direction: column;
-    
+  }
+  
+  .column {
+    flex: 50%;
   }
 
   .mockup {
-    margin-top: 12%;
     position: absolute;
     top: 50%;
     left: 50%;
