@@ -54,6 +54,8 @@ html {
   }
 
   .slide {
+    height: 450px;
+    width: 225px;
     padding-top: 100px;
     background-color: #2e2929;
     border-radius: 25px;
@@ -62,8 +64,8 @@ html {
   }
 
   .slide img {
-    height: 500px;
-    width: 250px;
+    height: 450px;
+    width: 225px;
   }
 
   .mockup:hover .slide:hover {
