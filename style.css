@@ -72,8 +72,7 @@ html {
 
   .slide img {
     border-radius: 25px;
-    height: 400px;
-    width: 200px;
+    height: 100%;
   }
 
   .mockup:hover .slide:hover {
