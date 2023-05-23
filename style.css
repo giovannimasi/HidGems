@@ -22,9 +22,10 @@ html {
 
   .foreground{
     background-color: rgba(255, 255, 255, 0.5);
-    height: 100vh;
+    height: 100%;
     max-width: 70%;
     margin: auto auto;
+    margin-bottom: 0;
   }
 
   .title {
