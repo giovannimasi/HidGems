@@ -55,10 +55,16 @@ html {
 
   .slide {
     height: 250px;
+    width: 125px;
     background-color: #2e2929;
     border-radius: 25px;
     cursor: pointer;
     transition: all 0.4s;
+  }
+
+  .slide img {
+    height: 250px;
+    width: 125px;
   }
 
   .mockup:hover .slide:hover {
