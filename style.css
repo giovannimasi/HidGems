@@ -42,6 +42,8 @@ html {
     display: flex;
     flex-direction: row;
     margin: auto auto;
+    justify-content: center;
+    align-items: center;
   }
 
   .mockup {
