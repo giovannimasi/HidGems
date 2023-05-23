@@ -40,7 +40,8 @@ html {
 
   .center {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    
   }
 
   .mockup {
@@ -97,11 +98,11 @@ html {
   }
   
   .google {
-    height: 160;
+    height: 80;
   }
 
   .apple {
-    height: 140;
+    height: 70;
   }
 }
 
